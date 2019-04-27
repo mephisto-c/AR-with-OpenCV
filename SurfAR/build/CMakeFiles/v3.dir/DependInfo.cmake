@@ -4,14 +4,14 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/wu/code/SurfAR/v3.cpp" "/home/wu/code/SurfAR/build/CMakeFiles/v3.dir/v3.cpp.o"
+  "/home/chenxin/source/AR-with-OpenCV/SurfAR/v3.cpp" "/home/chenxin/source/AR-with-OpenCV/SurfAR/build/CMakeFiles/v3.dir/v3.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/opencv331/include"
-  "/usr/local/opencv331/include/opencv"
+  "/usr/local/include"
+  "/usr/local/include/opencv"
   )
 
 # Targets to which this target links.

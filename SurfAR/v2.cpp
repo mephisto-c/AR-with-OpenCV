@@ -23,8 +23,8 @@ using namespace cv::xfeatures2d;
 int main()
 {
    //【1】读取目标图像.
-   Mat img_object = imread("/home/wu/code/SurfAR/state.jpg");     //目标图像
-   Mat img_2 = imread("/home/wu/code/SurfAR/state2.jpg");         //待检测图像
+   Mat img_object = imread("/home/chenxin/source/AR-with-OpenCV/SurfAR/state.jpg");     //目标图像
+   Mat img_2 = imread("/home/chenxin/source/AR-with-OpenCV/SurfAR/state2.jpg");         //待检测图像
 
    //【2】定义描述符和特征点向量.
    Mat descriptors_object;                     //目标图像

@@ -14,14 +14,26 @@ find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 
 #set(SOURCE_FILES main.cpp cam.cpp myAr_surf.cpp v1.cpp v2.cpp v3.cpp v3.1.cpp v3.2.cpp v4.cpp v4.1.cpp v4.2.cpp)
-add_executable(v1 v1.cpp)
-target_link_libraries(v1 ${OpenCV_LIBS})
+#add_executable(v1 v1.cpp)
+#target_link_libraries(v1 ${OpenCV_LIBS})
 
-add_executable(v2 v2.cpp)
-target_link_libraries(v2 ${OpenCV_LIBS})
+#add_executable(v2 v2.cpp)
+#target_link_libraries(v2 ${OpenCV_LIBS})
 
-add_executable(v3 v3.cpp)
-target_link_libraries(v3 ${OpenCV_LIBS})
+#add_executable(v3 v3.cpp)
+#target_link_libraries(v3 ${OpenCV_LIBS})
 
-add_executable(v4 v4.cpp)
-target_link_libraries(v4 ${OpenCV_LIBS})
+#add_executable(v4 v4.cpp)
+#target_link_libraries(v4 ${OpenCV_LIBS})
+
+#add_executable(v1_orb v1_orb.cpp)
+#target_link_libraries(v1_orb ${OpenCV_LIBS})
+
+# add_executable(orb_v2 orb_v2.cpp)
+# target_link_libraries(orb_v2 ${OpenCV_LIBS})
+
+# add_executable(orb_v3 orb_v3.cpp)
+# target_link_libraries(orb_v3 ${OpenCV_LIBS})
+
+add_executable(orb_v4 orb_v4.cpp)
+target_link_libraries(orb_v4 ${OpenCV_LIBS})

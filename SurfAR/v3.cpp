@@ -23,7 +23,7 @@ using namespace cv::xfeatures2d;
 int main()
 {
    //【1】读取图像.
-   Mat img_object = imread("/home/wu/code/SurfAR/state.jpg");     //目标图像
+   Mat img_object = imread("/home/chenxin/source/AR-with-OpenCV/SurfAR/state.jpg");     //目标图像
    VideoCapture capture(0);
    Mat img_scene;  //用于读取视频帧.
 

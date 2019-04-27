@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/chenxin/source/AR-with-OpenCV/SurfAR/build",
+  "command": "/usr/bin/c++    -isystem /usr/local/include -isystem /usr/local/include/opencv  -g   -std=gnu++11 -o CMakeFiles/orb_v4.dir/orb_v4.cpp.o -c /home/chenxin/source/AR-with-OpenCV/SurfAR/orb_v4.cpp",
+  "file": "/home/chenxin/source/AR-with-OpenCV/SurfAR/orb_v4.cpp"
+}
+]
